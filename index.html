@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Bricks</title>
+		<script type="application/javascript" src="scripta.js"></script>
+		<link rel="stylesheet"href="stile.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	</head>
+	<body>
+		<div id="bar">
+			<div class="tool">
+				<p>Score: <mark class="tocke">0</mark></p>
+			</div>
+			<div class="tool">
+				<p>Time: <mark class="cas">00:00</mark></p>
+			</div>
+		</div>
+		<div id="canvasDiv">
+			<canvas id="canvas" width="600" height="700">
+			</canvas>
+			
+		</div>
+		<div id="GameOver">
+			<div id="sporočilo" >
+				<p>Game Over</p><b>
+				
+				<p>Score: <mark class="tocke">0</mark background="white"></p>
+				<p>Time: <mark class="cas">00:00</mark></p>
+				<div class="Gumb" onclick="restart()">
+					<p>Menu</p>
+				</div>
+			</div>
+			<div id="start" onclick="startIt()">
+			Start
+			</div>
+			<div id="navodila">
+				<div id="prazen"><image src="PrazenUprasaj.png"></div>
+				<div id="opeka"><image src="Opeka.png"></div>
+				<p id="point1">1 point</p>
+				<div id="uprasaj"><image src="Uprasaj.png"></div>
+				<p id="point2">2 points</p>
+				<div id="divGoba"><image id="goba"src="Goba.png"></div>
+				<p id="point3">10 points</p>
+			</div>
+			<div id="zmaga">
+				<p>YOU WIN</p><b>
+				
+				<p>Score: <mark class="tocke">0</mark background="white"></p>
+				<p>Time: <mark class="cas">00:00</mark></p>
+				<div class="Gumb" onclick="restart()">
+					<p>Menu</p>
+				</div>	
+			</div>
+		</div>
+		
+						
+		
+	</body>
+</html>

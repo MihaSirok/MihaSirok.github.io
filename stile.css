@@ -1,0 +1,162 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family:Mario-World;
+}
+@font-face {
+  font-family: Mario-World;
+  src: url(Super-Mario-World.ttf);
+}
+#canvas{
+	border: 2px solid black;
+	background: rgba(255,255,255,0.3);
+	
+}
+body{
+	
+	background: url('MarioOzadje.jpg') no-repeat center center fixed; 
+	background-size: cover;
+}
+#canvasDiv{
+	margin-top:50px;
+	text-align:center;
+	
+}
+#bar{
+	width: 100%;
+	height: 50px;
+	background-color:yellow;
+}
+.tool{
+	width:150px;
+	height:35px;
+	padding:15px;
+	text-align:center;
+	display: inline-block;
+}
+#GameOver{
+	
+	width:100%;
+	height:100%;
+	
+	z-index:1;
+	position:absolute;
+	top:0px;
+	display:inline;
+	
+}
+#sporočilo{
+	
+	position:absolute;
+	top:350px;
+	left:25%;
+	width:50%;
+	height:300px;
+	background:white;
+	border-radius: 20px;
+	font-size:30px;
+	text-align:center;
+	padding:10px;
+	display:none;
+}
+.gumb{
+	position:relative;
+	background:red;
+	border-radius:20px;
+	width:50%;
+	height:45px;
+	top:90px;
+	left:25%;
+	padding-top:15px;
+	color:black;
+}
+.gumb:hover{
+	color:white;
+	cursor:pointer;
+	background: rgb(195,0,0);
+}
+
+#start{
+	position:absolute;
+	top:400px;
+	left:37.5%;
+	width:25%;
+	height:45px;
+	background:yellow;
+	border-radius: 20px;
+	font-size:30px;
+	text-align:center;
+	padding:15px;
+	display:inline;
+}
+#start:hover{
+	color:white;
+	cursor:pointer;
+	background: rgb(225,225,0);
+}
+
+#zmaga{
+	position:absolute;
+	top:350px;
+	left:25%;
+	width:50%;
+	height:300px;
+	background:white;
+	border-radius: 20px;
+	font-size:30px;
+	text-align:center;
+	padding:10px;
+	display:none;
+}
+#navodila{
+	position:absolute;
+	top:550px;
+	left:15%;
+	width:70%;
+	height:45px;
+	background:yellow;
+	border-radius: 20px;
+	font-size:30px;
+	
+	padding:15px;
+	display:inline;
+}
+#opeka{
+	transform:scale(0.2);
+	margin-top:-60px;
+	height: 60px;
+	width: 60px;
+	
+}
+#uprasaj{
+	transform:scale(0.2);
+	margin-top:-60px;
+	height: 60px;
+	width: 60px;
+	margin-left: 230px;
+}
+#prazen{
+	transform:scale(0.046);
+	margin-top:-50px;
+	height: 60px;
+	width: 60px;
+	
+}
+#point1{
+	position:absolute ;
+	left:130px;
+}
+#point2{
+	position:absolute ;
+	left:360px;
+}
+#point3{
+	margin-top: -20px;
+	margin-left:600px;
+}
+#goba{
+	transform:scale(3);
+}
+#divGoba{
+	margin-left: 550px;
+}
